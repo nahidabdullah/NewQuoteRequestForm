@@ -74,8 +74,8 @@
   
   <label for="Hazmat">Hazmat Cargo:</label>
 <select>
-<option value="">Yes</option>
 <option value="">No</option>
+<option value="">Yes</option>
 </select><br><br>
 <label for="Haz Spec">HAZ Details:<label>
   <input type="text" id="Haz Spec" name="Haz Spec" placeholder="UN,Class,PG"><br><br>
@@ -102,11 +102,13 @@
   <label for="Ready Date">Ready Date:<label>
   <input size="50" type="text box" id="Ready Date" name="Ready Date" placeholder="dd/mm/yyyy"><br><br>
   
-  <label for="Comments">Comments:<label>
-  <input size="500" type="textarea" class="resizedTextbox" id="Comments" name="Comments" placeholder="Enter additional details here"><br><br>
- 
+  <label for="Comments">Additional Comments:</label>
+<br>
+  <textarea id="textbox" name="textbox" rows="4" cols="50" placeholder="Enter additional details here">
+</textarea><br><br>
+  
   <input type="submit" value="Submit">
-</form> 
 
+</form> 
 </body>
 </html>
